@@ -1,0 +1,9 @@
+package com.example.jobsearch.model
+
+data class Job(
+    val id: Int,
+    val title: String,
+    val company: String,
+    val location: String,
+    val description: String
+)

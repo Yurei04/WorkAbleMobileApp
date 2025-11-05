@@ -1,0 +1,13 @@
+package com.example.jobsearch.repository
+
+import com.example.jobsearch.model.Job
+
+class JobRepository {
+    fun getJobs(): List<Job> {
+        return listOf(
+            Job(1, "Android Developer", "TechCorp", "New York, USA", "Work with Kotlin and Jetpack Compose."),
+            Job(2, "Backend Engineer", "DataSys", "London, UK", "Build scalable APIs using Node.js."),
+            Job(3, "UI/UX Designer", "Creative Studio", "Berlin, Germany", "Design user-centered experiences.")
+        )
+    }
+}
